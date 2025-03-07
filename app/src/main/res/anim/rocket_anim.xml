@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Движение снизу вверх -->
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="-300%"
+        android:duration="600"
+        />
+    <!-- Поворот по часовой стрелке на 90 градусов -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="90"
+        android:pivotX="0%"
+        android:pivotY="0%"
+        android:startOffset="1000"
+        android:duration="1000" />
+
+    <!-- Движение слева направо, пока не исчезнет за границами экрана -->
+
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:duration="1400" />
+
+</set>
+
