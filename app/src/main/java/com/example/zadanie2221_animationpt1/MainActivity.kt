@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-
-
 //    private fun startCircularAnimation() {
 //        // Длительность анимации в миллисекундах
 //        val duration = 15000L
